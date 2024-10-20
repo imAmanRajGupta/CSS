@@ -1,0 +1,38 @@
+/* Pseudo Element Selector */
+
+
+/* 1. ::first-letter */
+/* p::first-letter
+{
+    color: red;
+} */
+
+/* 2. ::first-line */
+/* p::first-line
+{
+    color: dodgerblue;
+} */
+
+/* 3. ::selection */
+/* p::selection
+{
+    background-color: green;
+    color: blue;
+} */
+
+/* 4. ::marker */
+/* ol>li:nth-of-type(odd)::marker
+{
+    content: "😒";
+}
+
+ol>li:nth-of-type(even)::marker
+{
+    content: "😊";
+} */
+
+ol>li::marker{
+    content: "\f061";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
